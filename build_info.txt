@@ -1,0 +1,176 @@
+usql-all-386: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
+usql-all-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
+usql-all-arm64v8: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
+usql-all-armv6: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-all-armv7: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-all-ppc64le: ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, version 1 (SYSV), statically linked, not stripped
+Available Drivers:
+  adodb [ad, ado]
+  athena [s3, aws]
+  avatica [av, phoenix]
+  bigquery [bq]
+  clickhouse [ch]
+  cockroachdb (postgres) [cr, cdb, crdb, cockroach]
+  cosmos [cm]
+  cql [ca, scy, scylla, datastax, cassandra]
+  csvq [cs, csv, tsv, json]
+  firebirdsql [fb, firebird]
+  genji [gj]
+  godror [gr]
+  h2
+  hdb [sa, sap, hana, saphana]
+  hive [hi]
+  ignite [ig, gridgain]
+  impala [im]
+  maxcompute [mc]
+  memsql (mysql) [me]
+  moderncsqlite [mq, modernsqlite]
+  mymysql [zm, mymy]
+  mysql [my, maria, aurora, mariadb, percona]
+  n1ql [n1, couchbase]
+  nzgo [nz, netezza]
+  odbc [od]
+  oleodbc (adodb) [oo, ole]
+  oracle [or, ora, oci, oci8, odpi, odpi-c]
+  pgx [px]
+  postgres [pg, pgsql, postgresql]
+  presto [pr, prs, prestos, prestodb, prestodbs]
+  ql [cznic, cznicql]
+  redshift (postgres) [rs]
+  snowflake [sf]
+  spanner [sp]
+  sqlite3 [sq, file, sqlite]
+  sqlserver [ms, mssql]
+  tds [ax, ase, sapase]
+  tidb (mysql) [ti]
+  trino [tr, trs, trinos]
+  vertica [ve]
+  vitess (mysql) [vt]
+  voltdb [vo, vdb, volt]
+
+usql-base-386: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
+usql-base-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
+usql-base-arm64v8: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
+usql-base-armv6: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-base-armv7: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-base-ppc64le: ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, version 1 (SYSV), statically linked, not stripped
+Available Drivers:
+  cockroachdb (postgres) [cr, cdb, crdb, cockroach]
+  memsql (mysql) [me]
+  mysql [my, maria, aurora, mariadb, percona]
+  oracle [or, ora, oci, oci8, odpi, odpi-c]
+  postgres [pg, pgsql, postgresql]
+  redshift (postgres) [rs]
+  sqlite3 [sq, file, sqlite]
+  sqlserver [ms, mssql]
+  tidb (mysql) [ti]
+  vitess (mysql) [vt]
+
+usql-most-386: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
+usql-most-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
+usql-most-arm64v8: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
+usql-most-armv6: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-most-armv7: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-most-ppc64le: ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, version 1 (SYSV), statically linked, not stripped
+Available Drivers:
+  adodb [ad, ado]
+  athena [s3, aws]
+  avatica [av, phoenix]
+  bigquery [bq]
+  clickhouse [ch]
+  cockroachdb (postgres) [cr, cdb, crdb, cockroach]
+  cql [ca, scy, scylla, datastax, cassandra]
+  csvq [cs, csv, tsv, json]
+  firebirdsql [fb, firebird]
+  genji [gj]
+  h2
+  hdb [sa, sap, hana, saphana]
+  ignite [ig, gridgain]
+  maxcompute [mc]
+  memsql (mysql) [me]
+  mymysql [zm, mymy]
+  mysql [my, maria, aurora, mariadb, percona]
+  n1ql [n1, couchbase]
+  nzgo [nz, netezza]
+  oleodbc (adodb) [oo, ole]
+  oracle [or, ora, oci, oci8, odpi, odpi-c]
+  pgx [px]
+  postgres [pg, pgsql, postgresql]
+  presto [pr, prs, prestos, prestodb, prestodbs]
+  ql [cznic, cznicql]
+  redshift (postgres) [rs]
+  spanner [sp]
+  sqlite3 [sq, file, sqlite]
+  sqlserver [ms, mssql]
+  tds [ax, ase, sapase]
+  tidb (mysql) [ti]
+  trino [tr, trs, trinos]
+  vertica [ve]
+  vitess (mysql) [vt]
+  voltdb [vo, vdb, volt]
+
+usql-mypost-386: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
+usql-mypost-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
+usql-mypost-arm64v8: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
+usql-mypost-armv6: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-mypost-armv7: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-mypost-ppc64le: ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, version 1 (SYSV), statically linked, not stripped
+Available Drivers:
+  cockroachdb (postgres) [cr, cdb, crdb, cockroach]
+  memsql (mysql) [me]
+  mysql [my, maria, aurora, mariadb, percona]
+  postgres [pg, pgsql, postgresql]
+  redshift (postgres) [rs]
+  tidb (mysql) [ti]
+  vitess (mysql) [vt]
+
+usql-mysql-386: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
+usql-mysql-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
+usql-mysql-arm64v8: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
+usql-mysql-armv6: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-mysql-armv7: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-mysql-ppc64le: ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, version 1 (SYSV), statically linked, not stripped
+Available Drivers:
+  memsql (mysql) [me]
+  mysql [my, maria, aurora, mariadb, percona]
+  tidb (mysql) [ti]
+  vitess (mysql) [vt]
+
+usql-openxpki-386: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
+usql-openxpki-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
+usql-openxpki-arm64v8: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
+usql-openxpki-armv6: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-openxpki-armv7: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-openxpki-ppc64le: ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, version 1 (SYSV), statically linked, not stripped
+Available Drivers:
+  cockroachdb (postgres) [cr, cdb, crdb, cockroach]
+  memsql (mysql) [me]
+  mysql [my, maria, aurora, mariadb, percona]
+  odbc [od]
+  oracle [or, ora, oci, oci8, odpi, odpi-c]
+  postgres [pg, pgsql, postgresql]
+  redshift (postgres) [rs]
+  sqlite3 [sq, file, sqlite]
+  tidb (mysql) [ti]
+  vitess (mysql) [vt]
+
+usql-postgres-386: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
+usql-postgres-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
+usql-postgres-arm64v8: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
+usql-postgres-armv6: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-postgres-armv7: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-postgres-ppc64le: ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, version 1 (SYSV), statically linked, not stripped
+Available Drivers:
+  cockroachdb (postgres) [cr, cdb, crdb, cockroach]
+  postgres [pg, pgsql, postgresql]
+  redshift (postgres) [rs]
+
+usql-sqlite3-386: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
+usql-sqlite3-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
+usql-sqlite3-arm64v8: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
+usql-sqlite3-armv6: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-sqlite3-armv7: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+usql-sqlite3-ppc64le: ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, version 1 (SYSV), statically linked, not stripped
+Available Drivers:
+  sqlite3 [sq, file, sqlite]
+

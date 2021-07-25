@@ -1,0 +1,7 @@
+.git*
+.dockerignore
+*.md
+Dockerfile*
+hooks/
+.build_data/
+builds/
