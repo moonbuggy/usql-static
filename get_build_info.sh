@@ -56,7 +56,7 @@ do_tarballs () {
 		# then print available drivers once, after all the architectures for the type are run
 		[ -n "${prev_build_type}" ] && [ "${build_type}" != "${prev_build_type}" ] \
 			&& printf '%s\n\n' "${available_drivers}" | tee -a "${tee_file}"
-		
+
 		file "${dest_file}" | tee -a "${tee_file}"
 
 		# more detailed file information
@@ -90,7 +90,7 @@ get_latest_version () {
 # otherwise, do the latest versions found in the build directory
 [ -z "${found_builds}" ] \
 	&& latest_version="$(get_latest_version)" \
-	&& found_builds="$(find "${BUILD_DIR}/" -maxdepth 1 -type f -print0 -name "*${latest_version}*.tar.gz" | xargs -0 -n1 | sort -uV)" \
+	&& found_builds="$(find "${BUILD_DIR}/" -maxdepth 1 -type f -print0 -name "*${latest_version}*.tar.gz" | xargs -0 -n1 | grep "${latest_version}" | sort -uV)" \
 	&& found_desc=" for version ${latest_version} in ${BUILD_DIR}" \
 	&& WRITE_FILE=1
 
